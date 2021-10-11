@@ -12,3 +12,11 @@ body::before{
         width: 50%;
     }
 }
+
+.gallery img{
+    max-width: 100%;
+}
+
+.gallery {
+    padding: 80px 0px;
+}

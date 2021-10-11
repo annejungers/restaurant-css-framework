@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <!-- CSS sheet-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
     <title>Homepage Restaurant</title>
   </head>
@@ -44,9 +45,48 @@
             </div>
         </div>
     </nav>
+    <!--Jumbotron & Cards-->
+    <div class="container mt-5 py-5">
+      <div class="row">
+        <div class="col">
+          <div class="jumbotron">
+            <h1><strong>Ready for a (Green) Boost!?</strong</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Enjoy our special offers</h5>
+              <p class="card-text">One coffee purchased, the second free</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Cook workshop</h5>
+              <p class="card-text">Each wednesday of the month free cook workshop. Come learn to cook with our Michelin-starred chefs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Free jazz concert each Friday evening</h5>
+              <p class="card-text">Come and enjoy some good relaxing music and delectable food!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+   
+
 
     <!--Showcase-->
-    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <section class="bg-white text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div>
@@ -104,11 +144,13 @@
                 <div class="col-md p-5">
                     <h2>We also organize workshops & events</h2>
                     <p class="lead">
-                        Want to learn how to cook tasty, nutritious 100% plant-based (so yes all our classes are vegan) food in London? You’re in the right place. Our much loved community cookery school is located in the city center of Brussels. The Green Boost is proud to be Brussels’s first 100% plant-based (so yes – all our classes are vegan) community cookery school. Since we opened in 2012 we’ve been teaching people the magic of cooking with plants. Our chefs and teachers are renown in their fields – many of them being published cookery book authors, sort after experts or chefs at renown eateries. Most importantly they’ll ensure you’ll have a great time.Whether you’re a complete beginner or plant-based pro – we have a class for you.
+                        Want to learn how to cook tasty, nutritious 100% plant-based (so yes all our classes are vegan) food in Brussel? You’re in the right place. Our much loved community cookery school is located in the <mark>city center of Brussels</mark>. The Green Boost is proud to be Brussels’s first 100% plant-based (so yes – all our classes are vegan) community cookery school. Since we opened in 2012 we’ve been teaching people the magic of cooking with plants. Our chefs and teachers are renown in their fields – many of them being published cookery book authors, sort after experts or chefs at renown eateries. Most importantly they’ll ensure you’ll have a great time.Whether you’re a complete beginner or plant-based pro – we have a class for you.
                     </p>
                     <p>
-                        "Let's food be our medicine, and medicine be the food." <strong><em>Hyppocrates</em></strong>
+                    <blocquote>
+                        "Let's food be our medicine, and medicine be the food."</blocquote> <strong><em>Hyppocrates</em></strong>
                     </p>
+                    
                     <a href="#" class="btn btn-light mt-3">
                         <i class="bi bi-chevron-right">View our current programme of masterclasses
                     </a>
@@ -116,20 +158,162 @@
         </div>
     </section>
 
-
-
-        <!--Newsletter-->
-        <section class="bg-success text-light p-5">
-            <div class="container">
-                <div class="d-md-flex justify-content-between align-items-center">
-                    <h3 class="mb-3 mb-md-0">Sign up for newsletter</h3>
-                    <div class="input-group news-input">
-                        <input type="text" class="form-control" placeholder="Enter your email address">
-                        <button class="btn btn-dark btn-lg" type="button">Button</button>
+    <!-- Questions section -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4"> Frenquently Asked Questions</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Do you have gluten-free options?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Yes.</strong> Most of our dishes are already gluten free. In our menu, all the ingredients used for cooking are mentionned. If the dish contains gluten it is also mentionned. All our dishes can be adapted, just tell us. 
                     </div>
+                  </div>
                 </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Are animals welcome?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Yes.</strong> We love animals!!! All animals are welcome. Our restaurant has a lot of space and a big garden. So don't hesitate to bring your little companion with you.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Is it possible to order in take-away?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Yes.</strong> If you preferred to eat at home or outside in the city, no worries! Just give us a call and we will take care of the rest! You can also order coffees and delicious matcha latte to go! So just come take a look!
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+    <!--Newsletter-->
+    <section class="bg-success text-light p-5">
+      <div class="container-fluid bg-success text-light p-5">
+          <div class="d-md-flex justify-content-between align-items-center">
+              <h3 class="mb-3 mb-md-0">Sign up for newsletter</h3>
+              <div class="input-group news-input">
+                  <input type="text" class="form-control" placeholder="Enter your email address">
+                  <button class="btn btn-dark btn-lg" type="button">Button</button>
+              </div>
+          </div>
+      </div>
+    </section>
+   
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+  
+    <div class="container my-5">
+    <footer class="text-white text-center text-lg-start bg-dark">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row mt-4">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">About company</h5>
+
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+              voluptatum deleniti atque corrupti.
+            </p>
+
+            <p>
+              Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+              molestias.
+            </p>
+
+            <div class="mt-4">
+              <!-- Facebook -->
+              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
+              <!-- Dribbble -->
+              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
+              <!-- Twitter -->
+              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+              <!-- Google + -->
+              <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
+              <!-- Linkedin -->
             </div>
-        </section>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+            <div class="form-outline form-white mb-4">
+              <input type="text" id="formControlLg" class="form-control form-control-lg" />
+              <label class="form-label" for="formControlLg">Search</label>
+            </div>
+
+            <ul class="fa-ul" style="margin-left: 1.65em;">
+              <li class="mb-3">
+                <span class="fa-li"><i class="fal fa-home-heart"></i></span><span class="ms-2">Brussels, Rues des petits Carmes, Belgium</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-envelope-open-text"></i></span><span class="ms-2">thegreenboost@hotmail.com</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-phone-square-alt"></i></span><span class="ms-2">+ 48 234 567 88</span>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+            <table class="table text-center text-white">
+              <tbody class="fw-normal">
+                <tr>
+                  <td>Mon - Thu:</td>
+                  <td>9am - 22pm</td>
+                </tr>
+                <tr>
+                  <td>Fri - Sat:</td>
+                  <td>9am - 1am</td>
+                </tr>
+                <tr>
+                  <td>Sunday:</td>
+                  <td>10am - 5pm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://www.linkedin.com/in/anne-jungers-b4a09968/">Anne Jungers</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+  </div>
+     
 
 
 
