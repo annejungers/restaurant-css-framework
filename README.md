@@ -21,15 +21,22 @@ The mission consists of the creation of a restaurant website. The website is mad
 
 
 
-## Steps
+## Steps:
 * Writing a prototype on paper
 * Building the content with the bootstrap library
 * Testing the responsive features
 
-## Used programming languages
+## Programming languages used:
 + HTML
 + Bootstrap
 + CSS
+
+## websites used:
++ [Font awesome](https://fontawesome.com/) for the icons.
++ [Unplash](https://unsplash.com/) for the images.
+
+
+
 
 
 
