@@ -38,7 +38,7 @@ The mission consists of the creation of a restaurant website. The website is mad
 
 ## Link to the project
 
-[Restaurant Project]()
+[https://annejungers.github.io/restaurant-css-framework/](https://annejungers.github.io/restaurant-css-framework/)
 
 
 
